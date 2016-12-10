@@ -44,6 +44,7 @@ namespace Test_Project___
         static void Main(string[] args)
         {
             Console.WriteLine("Hello!");
+            Console.WriteLine("WE can commynicate togethet !!!");
             Player tom = new Player();
             Console.WriteLine(tom.health);
             tom.health -= 200;
