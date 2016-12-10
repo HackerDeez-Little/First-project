@@ -16,7 +16,7 @@ namespace Test_Project___
                 get
                 {
                     return _health;
-                }
+                }                   
 
                 set
                 {
@@ -43,6 +43,7 @@ namespace Test_Project___
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello!");
             Player tom = new Player();
             Console.WriteLine(tom.health);
             tom.health -= 200;
