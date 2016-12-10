@@ -10,7 +10,7 @@ namespace IlluminatyProgram
     {
         static void Main(string[] args)
         {
-            String version = "v 1.0 "; // Version
+            String version = "v 1.1 "; // Version
             Console.WriteLine("This program was code by:Boux " +version);
 
             // All Strings will be declared there
