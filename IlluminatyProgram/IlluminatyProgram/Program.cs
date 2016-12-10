@@ -19,7 +19,7 @@ namespace IlluminatyProgram
             String cin = Console.ReadLine(); // Info collector line
             String q = "quit";
             String Anime = "Anime";
-            String Cal = "Calculator";
+            // out of plains at the moment String Cal = "Calculator";
             String Full = "Fullmetalalchemist";
 
 
