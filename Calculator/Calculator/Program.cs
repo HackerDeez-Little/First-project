@@ -23,8 +23,10 @@ namespace Calculator
 
             if (answer == num1 * num2)
             {
-                int responseIndex = numberGenerator.Next(1, 4);
+                Console.WriteLine("Correct!");
 
+                int responseIndex = numberGenerator.Next(1, 4);
+    
                 switch (responseIndex)
                 {
                     case 1:
@@ -38,7 +40,6 @@ namespace Calculator
                         break;
                 }
             }
-
             else
             {
                 int diff = Math.Abs(answer - (num1 * num2));
